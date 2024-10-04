@@ -1,0 +1,6 @@
+---
+- name: Install npm from apt
+  ansible.builtin.apt:
+    pkg:
+    - npm
+  become: true

@@ -1,0 +1,10 @@
+---
+- name: Ubuntu source
+  include_tasks: "source/{{ Ubuntu_source }}.yml"
+
+# old
+# - include_tasks: "from:/{{ source }}/main.yml"
+#  when: in == "native" and not repository
+
+#- include_tasks: "common/{{ ubuntu_default }}/main.yml"
+
